@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var num1=prompt('Dame número 1: ');
+        while(isNaN(num1)){
+            var num1=prompt('Dame número 1: ');
+        }
+        var num2=prompt('Dame número 2: ');
+        while(isNaN(num2)){
+            var num2=prompt('Dame número 2: ');
+        }
+
+        num1=parseInt(num1);
+        num2=parseInt(num2);
+
+        let suma=num1+num2;
+        let resta=num1-num2;
+        let prod=num1*num2;
+        let div=num1/num2;
+        alert('La sume es: ' + suma);
+        alert('La resta es: '+ resta);
+        alert('El producto es: '+ prod);
+        alert('La division es: ' + div);
+
+
+
+    </script>
+</body>
+</html>
